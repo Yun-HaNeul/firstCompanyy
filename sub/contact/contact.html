@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="효과적인 이벤트를 창조하는 회사 퍼스트컴퍼니" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="퍼스트컴퍼니" />
+    <meta property="og:description" content="효과적인 이벤트를 창조하는 회사 퍼스트컴퍼니" />
+    <meta property="og:url" content="http://www.urbanfarmcafe.com/" />
+    <meta name="Robots" content="INDEX, FOLLOW" />
+    <link rel="shortcut icon" href="../../img/logo/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" media="all and (max-width: 639px)" href="css/contact_M.css">
+    <title>견적문의 | First company</title>
+</head>
+
+<body>
+    <div class="popup">
+        <div class="popup_pcon">
+            <div class="pcon_close">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="popup_pcon_con con1">
+                <h2>개인정보 수집 및 이용에 대한 동의</h2>
+                <span>퍼스트컴퍼니는 서비스 제공에 필요한 최소한의 개인정보를 수집·이용합니다.</span>
+            </div>
+            <div class="popup_pcon_con">
+                <h2>&lt;개인정보의 수집·이용목적&gt;</h2>
+                <span>프로젝트 문의 접수 및 답변회신</span>
+            </div>
+            <div class="popup_pcon_con">
+                <h2>&lt;문의에 대한 답변&gt;</h2>
+                <span>견적문의에 대한 정보제공</span>
+            </div>
+            <div class="popup_pcon_con">
+                <h2>&lt;수집항목&gt;</h2>
+                <span>퍼스트컴퍼니는 아래와 같은 개인정보를 수집하고 있습니다.
+                    <br>· 필수항목 : 성함,회사(학교)명,이메일,연락처,프로젝트 종류
+                    <br>· 선택항목 : 문의사항
+                </span>
+            </div>
+            <div class="popup_pcon_con">
+                <h2>&lt;이용기간&gt;</h2>
+                <span>개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체없이 파기합니다.<br>단 관련법의 규정 및 내부 방침에 의해 일정기간 보유해야 <br>할 필요가 있을 경우 개인정보를 보관할 수 있습니다.</span>
+            </div>
+            <button class="p_agree">확인 및 승인</button>
+        </div>
+    </div>
+    <header id="header">
+        <h1 class="logo"><a href="../../index.html">First Company</a></h1>
+        <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <div class="nav">
+        <div class="nav_visual container">
+            <div class="inner">
+                <div class="nav_listWrap">
+                    <ul>
+                        <li><a href="../company/company.html" class="nav_list">회사소개</a></li>
+                        <li><a href="../business/business.html" class="nav_list">사업분야</a></li>
+                        <li><a href="contact.html" class="nav_list">견적문의</a></li>
+                    </ul>
+                </div>
+                <div class="nav_info">
+                    <p>대전시 서구 대덕대로 241번길 20 5층</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav_copy">
+            <p>&copy; 2022 퍼스트컴퍼니. ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+    <main>
+        <section class="contact section">
+            <header class="sec_head">
+                <h2>회사소개</h2>
+            </header>
+            <div class="titleBox">
+                <div class="inner container">
+                    <h3 class="title">실력과 신뢰를 겸비한 전문가를 만나보세요.</h3>
+                </div>
+            </div>
+            <article class="form_area">
+                <div class="container">
+                    <form method="post" id="contact-Form">
+                        <!-- 기본정보 -->
+                        <input type="hidden" name="contact_number">
+                        <div class="form_wrap">
+                            <div class="form_head">
+                                <h4 class="form_headTitle">01. 기본정보</h4>
+                                <p class="form_headDesc">반갑습니다. 기본 정보를 알려주세요.</p>
+                            </div>
+                            <div class="form_write">
+                                <ul>
+                                    <li class="form_list form_list1">
+                                        <div class="form_title">
+                                            <label for="user_name" class="form_name">성함</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" id="user_name" class="form_input" data-label="성함" name="u_name">
+                                        </div>
+                                    </li>
+                                    <li class="form_list form_list2">
+                                        <div class="form_title">
+                                            <label for="user_team" class="form_name">회사명(학교명)</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" id="user_team" class="form_input" data-label="회사명(학교명)" name="c_name">
+                                        </div>
+                                    </li>
+                                    <li class="form_list form_list3">
+                                        <div class="form_title">
+                                            <label for="user_tel" class="form_name">연락처</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" id="user_tel" class="form_input form_textarea"
+                                                data-label="연락처" name="p_num">
+                                        </div>
+                                    </li>
+                                    <li class="form_list form_list4">
+                                        <div class="form_title">
+                                            <label for="user_email" class="form_name">이메일</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" id="user_email" class="form_input" data-label="이메일" name="e_mail">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 프로젝트 종류 -->
+                        <div class="form_wrap">
+                            <div class="form_head">
+                                <h4 class="form_headTitle">02. 프로젝트 종류</h4>
+                                <p class="form_headDesc">종류를 선택하세요. 중복 선택이 가능합니다.</p>
+                            </div>
+                            <div class="form_write">
+                                <ul>
+                                    <li class="prj1 prj">
+                                        <label for="type_1">
+                                            <input type="checkbox" name="type_1" id="type_1" value="&#8730;">
+                                            <span class="prj_type">대학교행사대행</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj2 prj">
+                                        <label for="type_2">
+                                            <input type="checkbox" name="type_2" id="type_2" value="&#8730;">
+                                            <span class="prj_type">공연기획</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj3 prj">
+                                        <label for="type_3">
+                                            <input type="checkbox" name="type_3" id="type_3" value="&#8730;">
+                                            <span class="prj_type">각종프로모션</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj4 prj">
+                                        <label for="type_4">
+                                            <input type="checkbox" name="type_4" id="type_4" value="&#8730;">
+                                            <span class="prj_type">MT</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj5 prj">
+                                        <label for="type_5">
+                                            <input type="checkbox" name="type_5" id="type_5" value="&#8730;">
+                                            <span class="prj_type">국토대장정</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj6 prj">
+                                        <label for="type_6">
+                                            <input type="checkbox" name="type_6" id="type_6" value="&#8730;">
+                                            <span class="prj_type">장비렌탈</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj7 prj">
+                                        <label for="type_7">
+                                            <input type="checkbox" name="type_7" id="type_7" value="&#8730;">
+                                            <span class="prj_type">판촉물 단체복 제작</span>
+                                        </label>
+                                    </li>
+                                    <li class="prj8 prj">
+                                        <label for="type_8">
+                                            <input type="checkbox" name="type_8" id="type_8" value="&#8730;">
+                                            <span class="prj_type">기타</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 추가정보 -->
+                        <div class="form_wrap">
+                            <div class="form_head">
+                                <h4 class="form_headTitle">03. 추가정보</h4>
+                            </div>
+                            <div class="form_write">
+                                <ul>
+                                    <li class="form_list form_list5">
+                                        <div class="form_title">
+                                            <label for="date" class="form_name">일정</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" id="date" class="form_input" data-label="일정" name="p_date">
+                                        </div>
+                                    </li>
+                                    <li class="form_list form_list5">
+                                        <div class="form_title">
+                                            <label for="content" class="form_name">내용</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <textarea name="content" id="content" cols="40" rows="10"
+                                                class="form_textArea"></textarea>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 개인정보 -->
+                        <div class="bottom_area">
+                            <label for="checkBox" class="chbx">
+                                <input type="checkbox" name="checkBox" id="checkBox">
+                                <span href="#" class="checkreal"></span>
+                                <a href="#!" class="check_pop">개인정보수집이용 동의</a>
+                            </label>
+                            <div class="btn_area">
+                                <input type="submit" class="btn" value="문의사항 전송하기" id="submits">
+                            </div>
+                        </div>
+                    </form>
+            </article>
+            <div class="popup">
+                <div class="popup_pcon">
+                    <div class="pcon_close">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="popup_pcon_con con1">
+                        <h2>개인정보 수집 및 이용에 대한 동의</h2>
+                        <span>퍼스트컴퍼니는 서비스 제공에 필요한 최소한의 개인정보를 수집·이용합니다.</span>
+                    </div>
+                    <div class="popup_pcon_con">
+                        <h2>&lt;개인정보의 수집·이용목적&gt;</h2>
+                        <span>프로젝트 문의 접수 및 답변회신</span>
+                    </div>
+                    <div class="popup_pcon_con">
+                        <h2>&lt;문의에 대한 답변&gt;</h2>
+                        <span>견적문의에 대한 정보제공</span>
+                    </div>
+                    <div class="popup_pcon_con">
+                        <h2>&lt;수집항목&gt;</h2>
+                        <span>퍼스트컴퍼니는 아래와 같은 개인정보를 수집하고 있습니다.
+                            <br>· 필수항목 : 성함,회사(학교)명,이메일,연락처,프로젝트 종류
+                            <br>· 선택항목 : 문의사항
+                        </span>
+                    </div>
+                    <div class="popup_pcon_con">
+                        <h2>&lt;이용기간&gt;</h2>
+                        <span>개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체없이 파기합니다.<br>단 관련법의 규정 및 내부 방침에 의해 일정기간 보유해야 <br>할 필요가 있을 경우 개인정보를 보관할 수 있습니다.</span>
+                    </div>
+                    <button class="p_agree">확인 및 승인</button>
+                </div>
+            </div>
+        </section> <!--  // form-->
+        <section class="company_info">
+            <div class="container inner">
+                <div class="info_item1 info_item">
+                    <h5>대전시 서구 대덕대로 <br /> 241번길 20 5층</h5>
+                </div>
+                <div class="info_item2 info_item">
+                    <h5>alswoqorrn02@naver.com</h5>
+                </div>
+                <div class="info_item3 info_item">
+                    <h5>010.8767.6827</h5>
+                </div>
+                <div class="info_item4 info_item">
+                    <h5>09:00 ~ 18:00 (점심시간 13:00 ~ 14:00)</h5>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="f_t">
+                <ul class="f_com_info">
+                    <li>대전시 서구 둔산로 1022 5층</li>
+                    <li>alswoqorrn02@naver.com</li>
+                    <li>010.8767.6827</li>
+                </ul>
+            </div>
+            <div class="f_b">
+                <p class="copy">2022 퍼스트컴퍼니. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <div class="topBox">
+            <a href="#" class="top"></a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

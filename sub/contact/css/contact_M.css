@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/* common */
+.container {
+    padding: 0 10.1333%;
+}
+/* popup */
+div.popup div.popup_pcon {
+    width: 80vw;
+    padding: 1.8rem 5vw;
+}
+div.popup_pcon_con {
+    margin-bottom: 2rem;
+}
+div.popup_pcon div.pcon_close {
+    right: 4vw;
+    top: 3rem;
+}
+  /* header */
+#header  {
+    top: 6.4rem;
+    padding: 1rem 10.1333%;
+}
+#header  .logo a {
+    width: 6.78rem;
+    height: 2.6rem;
+}
+#header  .burger {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.nav .nav_visual .inner {
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14rem;
+}
+.nav .nav_visual .nav_listWrap  {
+    margin-top: 10rem;
+}
+.nav .nav_visual .nav_listWrap .nav_list {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.nav .nav_visual .nav_info > p {
+    
+    font-size: 1.5rem;
+}
+.nav .nav_visual .nav_info {
+    align-self: flex-start;
+}
+.nav_copy {
+    font-size: 1rem;
+}
+.section {
+    padding: 6.4rem 0;
+}
+.sec_head {
+    font-size: 1.5rem;
+    margin-bottom: 9rem;
+}
+.titleBox h3.title {
+    font-size: 2.5rem;
+}
+.form_headTitle {
+    font-size: 1.3rem;
+    margin-bottom: 3.5rem;
+}
+.form_headDesc {
+    font-size: 1.3rem;
+    margin-bottom: 3rem; 
+}
+.form_title {
+    font-size: 1.3rem;
+    left: 1rem;
+    top: -0.2rem;
+}
+.form_name {
+    font-size: 1.3rem;
+}
+.form_input {
+    height: 3rem;
+    font-size: 1.3rem;
+}
+.form_write ul {
+    gap: 2rem;
+}
+.form_wrap {
+    margin-bottom: 2.5rem;
+}
+.form_name::after {
+    width: 0.5rem;
+    height: 0.5rem;
+    top: 0.5rem;
+    right: -1rem;
+}
+.form_list {
+    margin-bottom: 2.6rem;
+}
+.form_list.on .form_title {
+    top: -2.6rem;
+}
+.form_list.on .form_name {
+    font-size: 1.1rem;
+}
+.form_write ul {
+    gap: .9rem;
+}
+.form_write .prj  {
+    margin-bottom: 0.3rem;
+}
+.prj_type {
+    font-size: 1rem;
+    width: 8.8rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+}
+.form_textArea{
+    height: 24rem;
+    font-size: 1.3rem;    
+}
+.chbx .checkreal {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.chbx .checkreal::after {
+    background-image: url("../../../img/sub/contact/icon/check_m.svg");
+}
+.chbx #checkBox:checked + .checkreal::after {
+    background-image: url("../../../img/sub/contact/icon/check_m_ac.svg");
+}
+.check_pop {
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+}
+.btn_area {
+    margin-top: 3.5rem;
+}
+.btn_area .btn {
+    width: 14.7rem;
+    height: 5.4rem;
+    line-height: 5.4rem;
+    font-size: 1.3rem;
+}
+/* company_info */
+.company_info  {
+    padding: 0;
+    height: auto;
+    margin-bottom: 9.5rem;
+    margin-top: 3rem;
+}
+.company_info .info_item {
+    font-size: 1.3rem;
+    margin: 0.4rem;
+}
+.company_info .info_item1 {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+.company_info .info_item4 {
+    margin-top: 1.3rem;
+}
+.company_info::before {
+    width: 9.8rem;
+    height: 9.8rem;
+    left: 30%;
+    top: -3rem;
+}
+/* footer */
+footer {
+    font-size: 1.1rem;
+    height: 18rem;
+    padding: 4rem 0;
+}
+footer .f_t .f_com_info {
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+footer .f_t .f_com_info li:nth-child(1) {
+    width: 100%;
+}    
+/* top */
+.topBox {
+    width: 3.2rem;
+    height: 3.2rem;
+    background: transparent;
+}
+.topBox .top::before {
+    width: 1.6rem;
+    height: 1.9rem;
+}

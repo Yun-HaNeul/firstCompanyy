@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* common */
+.container {
+    padding: 0 10.1333%;
+}
+ /* header */
+#header  {
+    top: 6.4rem;
+    padding: 1rem 10.1333%;
+}
+#header  .logo a {
+    width: 6.78rem;
+    height: 2.6rem;
+}
+#header  .burger {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.nav .nav_visual .inner {
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14rem;
+}
+.nav .nav_visual .nav_listWrap  {
+    margin-top: 10rem;
+}
+.nav .nav_visual .nav_listWrap .nav_list {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.nav .nav_visual .nav_info > p {
+    
+    font-size: 1.5rem;
+}
+.nav .nav_visual .nav_info {
+    align-self: flex-start;
+}
+.nav_copy {
+    font-size: 1rem;
+}
+/* main */
+.section {
+    padding: 6.4rem 0;
+    background: url("../../../img/main/bg/bg_m_1.svg") no-repeat center / contain;
+}
+.sec_head {
+    font-size: 1.5rem;
+    margin-bottom: 9rem;
+}
+.sec_title {
+    font-size: 6.5vw;
+    margin-bottom: 1.5rem;
+}
+.sec_title > span {
+    display: inline;
+}
+.sec_txt {
+    padding-left: 0;
+    font-size: 3vw;
+    line-height: 2;
+}
+.sec_txt> span {
+    font-size: 3vw;
+}
+/* info */
+.info_img {
+    margin-top: 6.4rem;
+}
+.info_img .img_left .img_1  {
+    width: 25.8rem;
+    height: 11.9rem;
+ }
+ .info_img .img_right  {
+     height: 15.6rem;
+ }
+ .info_img .img_right .img_2 {
+     width: 91.081vw;
+     height: 15.6rem;
+ }
+ /* ideol */
+ .ideol {
+     height: 100vh;
+ }
+ .ideol.section {
+     background: #000;
+ }
+ .ideol header {
+     margin-top: 10.0270vw;
+     font-size: 1.3rem;
+     margin-bottom: 1.5rem;
+ }
+ .ideol_iconArea {
+     padding-left: 0;
+ }
+ .ideol_iconArea ul {
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     gap: 10.8108vw;
+ }
+ .ideol_iconArea ul li .icon {
+     width: 9.3rem;
+     height: 4.7rem;
+ }
+ .ideol_iconArea ul li span {
+    font-size: 1rem;
+ }
+ /* banner */
+ .banner strong {
+     font-size: 1.6rem;
+ }
+ .banner .touch_linker {
+     font-size: 1.5rem;
+ }
+/* footer */
+footer {
+    font-size: 1.1rem;
+    height: 18rem;
+    padding: 4rem 0;
+}
+footer .f_t .f_com_info {
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+footer .f_t .f_com_info li:nth-child(1) {
+    width: 100%;
+}    
+/* top */
+.topBox {
+    width: 3.2rem;
+    height: 3.2rem;
+    background: transparent;
+}
+.topBox .top::before {
+    width: 1.6rem;
+    height: 1.9rem;
+}
